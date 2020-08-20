@@ -1,63 +1,55 @@
 # Online-Offline-Budget-Tracker
 
-# Unit 18 PWA Homework: Online/Offline Budget Trackers
+![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
 
-Add functionality to our existing Budget Tracker application to allow for offline access and functionality.
+## Description
 
-The user will be able to add expenses and deposits to their budget with or without a connection. When entering transactions offline, they should populate the total when brought back online.
+The app is designed to allow consumer to reach their fitness goals. As a user of this app- one should be able to track the name, type, weight, sets, reps, and duration of exercise. This allows the user to customize their workout plan and fitness journey
 
-Offline Functionality:
+## Table of Contents
 
-- Enter deposits offline
+- [Installation](#installation)
 
-- Enter expenses offline
+- [Usage](#usage)
 
-When brought back online:
+- [License](#license)
 
-- Offline entries should be added to tracker.
+- [Contributing](#contributing)
 
-## User Story
+- [Tests](#tests)
 
-AS AN avid traveller
-I WANT to be able to track my withdrawals and deposits with or without a data/internet connection
-SO THAT my account balance is accurate when I am traveling
+- [Questions](#questions)
 
-## Business Context
+## Installation
 
-Giving users a fast and easy way to track their money is important, but allowing them to access that information anytime is even more important. Having offline functionality is paramount to our applications success.
+To install necessary dependencies, run the following command:
 
-## Acceptance Criteria
+```
+npm install
+npm run seed
+node server.js
+```
 
-GIVEN a user is on Budget App without an internet connection
-WHEN the user inputs a withdrawal or deposit
-THEN that will be shown on the page, and added to their transaction history when their connection is back online.
+## Usage
 
----
+Please refer to the license and user agreement section
 
-## Commit Early and Often
+## License
 
-- One of the most important skills to master as a web developer is version control. Building the habit of committing via Git is important for two reasons:
+This project is licensed under the MIT license.
 
-1. Your commit history is a signal to employers that you are actively working on projects and learning new skills
+## Contributing
 
-2. Your commit history allows you to revert your code base in the event that you need to return to a previous state
+Please refer to the license
 
-- Follow these guidelines for committing:
+## Tests
 
-  - Make single purpose commits for related changes to ensure a clean, manageable history. If you are fixing two issues, make two commits
+To run tests, run the following command:
 
-  - Write descriptive, meaningful commit messages so that you and anyone else looking at your repository can easily understand its history
+```
+npm test
+```
 
-  - Don't commit half done work, for the sake of your collaborators (and your future self!)
+## Questions
 
-  - Test your application before you commit to ensure functionality at every step in the development process
-
-- We would like you to have well over 200 commits by graduation, so commit early and often!
-
-## Submission on BCS
-
-- You are required to submit the following:
-
-  - the URL to the deployed application
-
-  - the URL to the Github repository
+If you have any questions about the repo, open an issue or contact me directly at ehson.raza1@outlook.com. You can find more of my work at [ehsonraza1](https://github.com/ehsonraza1/).
