@@ -1,10 +1,12 @@
 # Online-Offline-Budget-Tracker
 
+[live Link](https://online-offline-budget-ehson.herokuapp.com)
+
 ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
 
 ## Description
 
-The app is designed to allow consumer to reach their fitness goals. As a user of this app- one should be able to track the name, type, weight, sets, reps, and duration of exercise. This allows the user to customize their workout plan and fitness journey
+This is a Progressive Web App for tracking Budgets - design to function both online and offline. When users make an entry with a poor connection, the app will try and store the entry when the connection is restored. The App utilizes service-worker to accomplish this.
 
 ## Table of Contents
 
